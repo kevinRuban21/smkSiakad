@@ -1,0 +1,1905 @@
+INFO - 2024-06-20 05:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 05:41:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "siswa/v_jadwal_siswa.php"
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/v_jadwal_siswa.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/v_jadwal_siswa', [], true)
+ 3 APPPATH\Views\v_template_admin.php(287): view('siswa/v_jadwal_siswa')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\JadwalSiswa.php(32): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 05:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 05:42:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "siswa/v_jadwal_siswa.php"
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/v_jadwal_siswa.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/v_jadwal_siswa', [], true)
+ 3 APPPATH\Views\v_template_admin.php(287): view('siswa/v_jadwal_siswa')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\JadwalSiswa.php(32): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 05:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 05:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 06:15:10 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 21.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(32): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 06:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 06:18:25 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 21.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(33): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 06:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 06:19:20 --> ErrorException: Undefined variable $jadwal
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 64.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(33): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 06:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 06:44:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 26.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 06:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 06:44:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 26.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 06:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 06:45:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 26.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 06:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 07:49:43 --> ErrorException: Undefined variable $jadwal
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 69.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 69)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 07:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 07:50:03 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 72.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 4 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 8 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 07:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 07:53:45 --> mysqli_sql_exception: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 07:53:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause'
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 2 APPPATH\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 07:53:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 4 APPPATH\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 07:53:45 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 5 APPPATH\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 07:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 07:54:05 --> mysqli_sql_exception: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 07:54:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause'
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 2 APPPATH\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 07:54:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 4 APPPATH\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 07:54:05 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 5 APPPATH\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 07:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 07:54:25 --> mysqli_sql_exception: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 07:54:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause'
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 2 APPPATH\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 07:54:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 4 APPPATH\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 07:54:25 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_jadwal_pelajaran.id_jadwal_pelajaran' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = \'Gery\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal_pelajaran`=`tbl_kelas`.`id_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 5 APPPATH\Models\ModelJadwalSiswa.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 08:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 08:46:22 --> ArgumentCountError: Too few arguments to function App\Controllers\JadwalSiswa::index(), 0 passed in C:\xampp\htdocs\smksiakad\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Controllers\JadwalSiswa.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 08:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 08:47:08 --> mysqli_sql_exception: Unknown column 'tbl_jadwal_pelajaran' in 'where clause' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelJadwalSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 08:47:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jadwal_pelajaran' in 'where clause'
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `tbl_jadwal_pelajaran` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 2 APPPATH\Models\ModelJadwalSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 08:47:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jadwal_pelajaran' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `tbl_jadwal_pelajaran` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `tbl_jadwal_pelajaran` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `tbl_jadwal_pelajaran` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 4 APPPATH\Models\ModelJadwalSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 08:47:08 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_jadwal_pelajaran' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `tbl_jadwal_pelajaran` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `tbl_jadwal_pelajaran` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `tbl_jadwal_pelajaran` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `tbl_jadwal_pelajaran` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 5 APPPATH\Models\ModelJadwalSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 08:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 08:57:39 --> mysqli_sql_exception: Unknown column 'tbl_siswa.id_jadwal' in 'on clause' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelJadwalSiswa.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 08:57:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_siswa.id_jadwal' in 'on clause'
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal`=`tbl_siswa`.`id_jadwal`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 2 APPPATH\Models\ModelJadwalSiswa.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 08:57:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_siswa.id_jadwal' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal`=`tbl_siswa`.`id_jadwal`
+WHERE `nama_siswa` = \'Gery\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal`=`tbl_siswa`.`id_jadwal`
+WHERE `nama_siswa` = \'Gery\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal`=`tbl_siswa`.`id_jadwal`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 4 APPPATH\Models\ModelJadwalSiswa.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 08:57:39 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_siswa.id_jadwal' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal`=`tbl_siswa`.`id_jadwal`
+WHERE `nama_siswa` = \'Gery\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal`=`tbl_siswa`.`id_jadwal`
+WHERE `nama_siswa` = \'Gery\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal`=`tbl_siswa`.`id_jadwal`
+WHERE `nama_siswa` = \'Gery\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_jadwal_pelajaran` ON `tbl_jadwal_pelajaran`.`id_jadwal`=`tbl_siswa`.`id_jadwal`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 5 APPPATH\Models\ModelJadwalSiswa.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 08:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 08:59:06 --> mysqli_sql_exception: Not unique table/alias: 'tbl_siswa' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelJadwalSiswa.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 08:59:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'tbl_siswa'
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 2 APPPATH\Models\ModelJadwalSiswa.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 08:59:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'tbl_siswa'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `nama_siswa` = \'Gery\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `nama_siswa` = \'Gery\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 4 APPPATH\Models\ModelJadwalSiswa.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 08:59:06 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'tbl_siswa'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `nama_siswa` = \'Gery\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `nama_siswa` = \'Gery\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `nama_siswa` = \'Gery\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `nama_siswa` = :nama_siswa:', [...], false)
+ 5 APPPATH\Models\ModelJadwalSiswa.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JadwalSiswa.php(32): App\Models\ModelJadwalSiswa->DataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 09:00:51 --> mysqli_sql_exception: Unknown column 'tbl_jadwal_pelajaran.id_siswa' in 'on clause' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 09:00:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jadwal_pelajaran.id_siswa' in 'on clause'
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 2 APPPATH\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 09:00:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jadwal_pelajaran.id_siswa' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 4 APPPATH\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 09:00:51 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_jadwal_pelajaran.id_siswa' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_jadwal_pelajaran`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 5 APPPATH\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 09:01:41 --> mysqli_sql_exception: Unknown column 'tbl_kelas.id_siswa' in 'on clause' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 09:01:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_kelas.id_siswa' in 'on clause'
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_kelas`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 2 APPPATH\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 09:01:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_kelas.id_siswa' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_kelas`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_kelas`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_kelas`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 4 APPPATH\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 09:01:41 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_kelas.id_siswa' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_kelas`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_kelas`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_kelas`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_siswa` ON `tbl_siswa`.`id_siswa`=`tbl_kelas`.`id_siswa`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 5 APPPATH\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 09:03:07 --> mysqli_sql_exception: Not unique table/alias: 'tbl_kelas' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 09:03:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'tbl_kelas'
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 2 APPPATH\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 09:03:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'tbl_kelas'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 4 APPPATH\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 09:03:07 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'tbl_kelas'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_siswa`.`id_kelas`
+WHERE `id_jadwal` IS NULL
+ORDER BY `tbl_mapel`.`smt` ASC', [], false)
+ 5 APPPATH\Models\ModelJadwalSiswa.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:19:09 --> ArgumentCountError: Too few arguments to function App\Controllers\JadwalSiswa::index(), 0 passed in C:\xampp\htdocs\smksiakad\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Controllers\JadwalSiswa.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:19:55 --> ErrorException: Undefined variable $id_siswa
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Controllers\JadwalSiswa.php on line 32.
+ 1 APPPATH\Controllers\JadwalSiswa.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_siswa', 'C:\\xampp\\htdocs\\smksiakad\\app\\Controllers\\JadwalSiswa.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:21:02 --> ErrorException: Undefined variable $id_siswa
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Controllers\JadwalSiswa.php on line 32.
+ 1 APPPATH\Controllers\JadwalSiswa.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_siswa', 'C:\\xampp\\htdocs\\smksiakad\\app\\Controllers\\JadwalSiswa.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:21:20 --> ArgumentCountError: Too few arguments to function App\Models\ModelJadwalSiswa::JadwalMapel(), 0 passed in C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php on line 33 and exactly 1 expected
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Models\ModelJadwalSiswa.php on line 18.
+ 1 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:21:37 --> ErrorException: Undefined variable $id_kelas
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Controllers\JadwalSiswa.php on line 33.
+ 1 APPPATH\Controllers\JadwalSiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kelas', 'C:\\xampp\\htdocs\\smksiakad\\app\\Controllers\\JadwalSiswa.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:41:11 --> ArgumentCountError: Too few arguments to function App\Controllers\JadwalSiswa::Detail(), 0 passed in C:\xampp\htdocs\smksiakad\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: JadwalSiswa/Detail]
+in APPPATH\Controllers\JadwalSiswa.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->Detail()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:42:12 --> ArgumentCountError: Too few arguments to function App\Controllers\JadwalSiswa::Detail(), 0 passed in C:\xampp\htdocs\smksiakad\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: JadwalSiswa/Detail]
+in APPPATH\Controllers\JadwalSiswa.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->Detail()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:43:45 --> ArgumentCountError: Too few arguments to function App\Models\ModelJadwalSiswa::JadwalMapel(), 0 passed in C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php on line 33 and exactly 1 expected
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Models\ModelJadwalSiswa.php on line 18.
+ 1 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:44:18 --> ArgumentCountError: Too few arguments to function App\Models\ModelJadwalSiswa::JadwalMapel(), 0 passed in C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php on line 33 and exactly 1 expected
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Models\ModelJadwalSiswa.php on line 18.
+ 1 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 09:47:24 --> mysqli_sql_exception: Column 'id_kelas' in where clause is ambiguous in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelJadwalSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 09:47:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_kelas' in where clause is ambiguous
+[Method: GET, Route: JadwalSiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_guru` ON `tbl_guru`.`id_guru`=`tbl_jadwal_pelajaran`.`id_guru`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `id_kelas` IS NULL', [], false)
+ 2 APPPATH\Models\ModelJadwalSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 09:47:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_kelas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_guru` ON `tbl_guru`.`id_guru`=`tbl_jadwal_pelajaran`.`id_guru`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `id_kelas` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_guru` ON `tbl_guru`.`id_guru`=`tbl_jadwal_pelajaran`.`id_guru`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `id_kelas` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_guru` ON `tbl_guru`.`id_guru`=`tbl_jadwal_pelajaran`.`id_guru`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `id_kelas` IS NULL', [], false)
+ 4 APPPATH\Models\ModelJadwalSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 09:47:24 --> [Caused by] mysqli_sql_exception: Column 'id_kelas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_guru` ON `tbl_guru`.`id_guru`=`tbl_jadwal_pelajaran`.`id_guru`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `id_kelas` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_guru` ON `tbl_guru`.`id_guru`=`tbl_jadwal_pelajaran`.`id_guru`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `id_kelas` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_guru` ON `tbl_guru`.`id_guru`=`tbl_jadwal_pelajaran`.`id_guru`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `id_kelas` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jadwal_pelajaran`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_jadwal_pelajaran`.`id_mapel`
+LEFT JOIN `tbl_guru` ON `tbl_guru`.`id_guru`=`tbl_jadwal_pelajaran`.`id_guru`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas`=`tbl_jadwal_pelajaran`.`id_kelas`
+WHERE `id_kelas` IS NULL', [], false)
+ 5 APPPATH\Models\ModelJadwalSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JadwalSiswa.php(33): App\Models\ModelJadwalSiswa->JadwalMapel()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 09:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:57:42 --> ErrorException: Undefined variable $jadwal
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 69.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 69)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 14:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 14:28:37 --> ErrorException: Undefined array key "smt"
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 77.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "smt"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 77)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 14:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 14:28:52 --> ErrorException: Undefined array key "kode_mapel"
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 78.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 14:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 14:31:13 --> ErrorException: Undefined array key "nama_guru"
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 81.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 14:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 14:38:00 --> ErrorException: Undefined array key "jurusan"
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 82.
+ 1 APPPATH\Views\akademik-siswa\v_jadwal_siswa.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jurusan"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php', 82)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-siswa\\v_jadwal_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 5 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 9 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 14:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 15:13:12 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: Siswa/Input]
+in APPPATH\Views\siswa\v_input.php on line 50.
+ 1 APPPATH\Views\siswa\v_input.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\siswa\\v_input.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\siswa\\v_input.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/v_input', [], true)
+ 5 APPPATH\Views\v_template_admin.php(287): view('siswa/v_input')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Siswa.php(40): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->Input()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 15:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 16:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 17:25:48 --> mysqli_sql_exception: Unknown column 'tbl_guru.id_mapel' in 'on clause' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Models\ModelGuru.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\app\Controllers\Guru.php(25): App\Models\ModelGuru->AllData()
+#6 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\Guru->index()
+#7 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#8 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-20 17:25:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_guru.id_mapel' in 'on clause'
+[Method: GET, Route: Guru]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_guru`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_guru`.`id_mapel`
+ORDER BY `id_guru` DESC', [], false)
+ 2 APPPATH\Models\ModelGuru.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Guru.php(25): App\Models\ModelGuru->AllData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 17:25:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_guru.id_mapel' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_guru`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_guru`.`id_mapel`
+ORDER BY `id_guru` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_guru`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_guru`.`id_mapel`
+ORDER BY `id_guru` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_guru`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_guru`.`id_mapel`
+ORDER BY `id_guru` DESC', [], false)
+ 4 APPPATH\Models\ModelGuru.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Guru.php(25): App\Models\ModelGuru->AllData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 17:25:48 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_guru.id_mapel' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_guru`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_guru`.`id_mapel`
+ORDER BY `id_guru` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_guru`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_guru`.`id_mapel`
+ORDER BY `id_guru` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_guru`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_guru`.`id_mapel`
+ORDER BY `id_guru` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_guru`
+LEFT JOIN `tbl_mapel` ON `tbl_mapel`.`id_mapel`=`tbl_guru`.`id_mapel`
+ORDER BY `id_guru` DESC', [], false)
+ 5 APPPATH\Models\ModelGuru.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Guru.php(25): App\Models\ModelGuru->AllData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 17:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 20:06:43 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: JadwalSiswa]
+in APPPATH\Views\akademik-siswa\v_jadwal_siswa.php on line 10.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-siswa/v_jadwal_siswa', [], true)
+ 3 APPPATH\Views\v_template_siswa.php(194): view('akademik-siswa/v_jadwal_siswa')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_siswa.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_siswa', [], true)
+ 7 APPPATH\Controllers\JadwalSiswa.php(34): view('v_template_siswa', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSiswa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSiswa))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-20 20:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 20:24:58 --> ErrorException: unlink(C:\xampp\htdocs\smksiakad\writable\debugbar/debugbar_1718879272.810040.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\smksiakad\\writable\\debugbar/debugbar_1718879272.810040.json): No such file or directory', 'C:\\xampp\\htdocs\\smksiakad\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\xampp\\htdocs\\smksiakad\\writable\\debugbar/debugbar_1718879272.810040.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(520): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1718889890.952214', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

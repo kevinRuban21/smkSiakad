@@ -1,0 +1,481 @@
+INFO - 2024-06-28 16:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 16:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 16:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 16:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 16:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 16:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 16:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 16:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 16:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:06:56 --> ErrorException: Undefined variable $id_mapel
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Controllers\InputNilai.php on line 62.
+ 1 APPPATH\Controllers\InputNilai.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_mapel', 'C:\\xampp\\htdocs\\smksiakad\\app\\Controllers\\InputNilai.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:07:55 --> ArgumentCountError: Too few arguments to function App\Controllers\InputNilai::InputNilaiSiswa(), 1 passed in C:\xampp\htdocs\smksiakad\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Controllers\InputNilai.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:13:42 --> ErrorException: Undefined variable $id_jurusan
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Views\akademik-guru\nilai\v_input_nilai.php on line 9.
+ 1 APPPATH\Views\akademik-guru\nilai\v_input_nilai.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_jurusan', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_input_nilai', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_input_nilai')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(71): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:14:08 --> ErrorException: Undefined variable $id_mapel
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Views\akademik-guru\nilai\v_input_nilai.php on line 9.
+ 1 APPPATH\Views\akademik-guru\nilai\v_input_nilai.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_mapel', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_input_nilai', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_input_nilai')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(71): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:14:16 --> ErrorException: Undefined array key "mapel"
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Views\akademik-guru\nilai\v_input_nilai.php on line 36.
+ 1 APPPATH\Views\akademik-guru\nilai\v_input_nilai.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_input_nilai', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_input_nilai')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(71): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:15:53 --> ErrorException: Undefined array key "mapel"
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Views\akademik-guru\nilai\v_input_nilai.php on line 36.
+ 1 APPPATH\Views\akademik-guru\nilai\v_input_nilai.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_input_nilai', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_input_nilai')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(71): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:16:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Views\akademik-guru\nilai\v_input_nilai.php on line 36.
+ 1 APPPATH\Views\akademik-guru\nilai\v_input_nilai.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_input_nilai', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_input_nilai')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(71): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:16:13 --> ErrorException: Undefined array key "mapel"
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Views\akademik-guru\nilai\v_input_nilai.php on line 36.
+ 1 APPPATH\Views\akademik-guru\nilai\v_input_nilai.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_input_nilai', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_input_nilai')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(71): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:17:04 --> ErrorException: Undefined array key "mapel"
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Views\akademik-guru\nilai\v_input_nilai.php on line 36.
+ 1 APPPATH\Views\akademik-guru\nilai\v_input_nilai.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_input_nilai', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_input_nilai')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(71): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:17:37 --> ErrorException: Undefined array key "id_mapel"
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Views\akademik-guru\nilai\v_input_nilai.php on line 36.
+ 1 APPPATH\Views\akademik-guru\nilai\v_input_nilai.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_input_nilai', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_input_nilai')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(71): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:27:41 --> ErrorException: Undefined array key "mapel"
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Views\akademik-guru\nilai\v_data_siswa.php on line 20.
+ 1 APPPATH\Views\akademik-guru\nilai\v_data_siswa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_data_siswa', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_data_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(58): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:29:37 --> ErrorException: Undefined variable $jadwal
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Views\akademik-guru\nilai\v_data_siswa.php on line 20.
+ 1 APPPATH\Views\akademik-guru\nilai\v_data_siswa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_data_siswa', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_data_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(57): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:31:23 --> ArgumentCountError: Too few arguments to function App\Controllers\InputNilai::DataSiswa(), 1 passed in C:\xampp\htdocs\smksiakad\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Controllers\InputNilai.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:33:04 --> ErrorException: Undefined array key "id_mapel"
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Controllers\InputNilai.php on line 56.
+ 1 APPPATH\Controllers\InputNilai.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Controllers\\InputNilai.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:35:34 --> ErrorException: Undefined array key "id_mapel"
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Controllers\InputNilai.php on line 56.
+ 1 APPPATH\Controllers\InputNilai.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Controllers\\InputNilai.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 17:36:31 --> ErrorException: Undefined array key "mapel"
+[Method: GET, Route: InputNilai/InputNilaiSiswa/52]
+in APPPATH\Views\akademik-guru\nilai\v_input_nilai.php on line 36.
+ 1 APPPATH\Views\akademik-guru\nilai\v_input_nilai.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_input_nilai.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_input_nilai', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_input_nilai')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(70): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->InputNilaiSiswa('52')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 17:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 17:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 18:01:54 --> ErrorException: Undefined variable $jadwal
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Views\akademik-guru\nilai\v_data_siswa.php on line 20.
+ 1 APPPATH\Views\akademik-guru\nilai\v_data_siswa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_data_siswa', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_data_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(56): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 18:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 18:02:52 --> ErrorException: Undefined array key "mapel"
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Views\akademik-guru\nilai\v_data_siswa.php on line 20.
+ 1 APPPATH\Views\akademik-guru\nilai\v_data_siswa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_data_siswa', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_data_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(58): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 18:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 18:05:58 --> ErrorException: Undefined array key "id_mapel"
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Controllers\InputNilai.php on line 56.
+ 1 APPPATH\Controllers\InputNilai.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Controllers\\InputNilai.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 18:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 18:35:31 --> ErrorException: Undefined array key "id_mapel"
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Controllers\InputNilai.php on line 56.
+ 1 APPPATH\Controllers\InputNilai.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Controllers\\InputNilai.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 18:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 18:37:58 --> ErrorException: Undefined array key "id_mapel"
+[Method: GET, Route: InputNilai/DataSiswa/2]
+in APPPATH\Controllers\InputNilai.php on line 56.
+ 1 APPPATH\Controllers\InputNilai.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mapel"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Controllers\\InputNilai.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 18:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 18:38:18 --> ErrorException: Undefined variable $jadwal
+[Method: GET, Route: InputNilai/DataSiswa/2]
+in APPPATH\Views\akademik-guru\nilai\v_data_siswa.php on line 20.
+ 1 APPPATH\Views\akademik-guru\nilai\v_data_siswa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_data_siswa', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_data_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(58): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('2')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 18:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 18:46:48 --> ErrorException: Undefined variable $kelas
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Views\akademik-guru\nilai\v_data_siswa.php on line 15.
+ 1 APPPATH\Views\akademik-guru\nilai\v_data_siswa.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_data_siswa', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_data_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(59): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 18:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 18:46:57 --> ErrorException: Undefined variable $id_kelas
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Controllers\InputNilai.php on line 56.
+ 1 APPPATH\Controllers\InputNilai.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kelas', 'C:\\xampp\\htdocs\\smksiakad\\app\\Controllers\\InputNilai.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 18:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 18:48:53 --> ErrorException: Undefined array key "nama_siswa"
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Views\akademik-guru\nilai\v_data_siswa.php on line 57.
+ 1 APPPATH\Views\akademik-guru\nilai\v_data_siswa.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_siswa"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\akademik-guru\\nilai\\v_data_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akademik-guru/nilai/v_data_siswa', [], true)
+ 5 APPPATH\Views\v_template_guru.php(221): view('akademik-guru/nilai/v_data_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_guru.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_guru', [], true)
+ 9 APPPATH\Controllers\InputNilai.php(59): view('v_template_guru', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 18:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 18:52:15 --> ArgumentCountError: Too few arguments to function App\Controllers\InputNilai::DataSiswa(), 1 passed in C:\xampp\htdocs\smksiakad\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: InputNilai/DataSiswa/1]
+in APPPATH\Controllers\InputNilai.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InputNilai->DataSiswa('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-28 18:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 18:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 19:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 19:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 19:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 19:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 19:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 19:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 19:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 19:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 19:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 19:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

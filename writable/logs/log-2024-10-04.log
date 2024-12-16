@@ -1,0 +1,420 @@
+INFO - 2024-10-04 06:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 06:49:12 --> ErrorException: Undefined variable $siswa
+[Method: GET, Route: Pembayaran/DaftarSiswa/1]
+in APPPATH\Views\pembayaran\v_daftar_siswa.php on line 52.
+ 1 APPPATH\Views\pembayaran\v_daftar_siswa.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php', 52)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 06:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 06:52:17 --> ErrorException: Undefined variable $siswa
+[Method: GET, Route: Pembayaran/DaftarSiswa/1]
+in APPPATH\Views\pembayaran\v_daftar_siswa.php on line 52.
+ 1 APPPATH\Views\pembayaran\v_daftar_siswa.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php', 52)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 06:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 06:55:17 --> ErrorException: Undefined array key "id_pemb_siswa"
+[Method: GET, Route: Pembayaran/DaftarSiswa/1]
+in APPPATH\Views\pembayaran\v_daftar_siswa.php on line 63.
+ 1 APPPATH\Views\pembayaran\v_daftar_siswa.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pemb_siswa"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 06:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 07:05:09 --> ErrorException: Undefined array key "jurusan"
+[Method: GET, Route: Pembayaran/DaftarSiswa/1]
+in APPPATH\Views\pembayaran\v_daftar_siswa.php on line 100.
+ 1 APPPATH\Views\pembayaran\v_daftar_siswa.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jurusan"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php', 100)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 07:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:06:43 --> mysqli_sql_exception: Column 'id_jurusan' in where clause is ambiguous in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Views\pembayaran\v_daftar_siswa.php(92): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\smksiakad\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\smksiakad\system\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_da...', Array, true)
+#8 C:\xampp\htdocs\smksiakad\app\Views\v_template_admin.php(303): view('pembayaran/v_da...')
+#9 C:\xampp\htdocs\smksiakad\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\smksiakad\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\smksiakad\system\Common.php(1171): CodeIgniter\View\View->render('v_template_admi...', Array, true)
+#12 C:\xampp\htdocs\smksiakad\app\Controllers\Pembayaran.php(48): view('v_template_admi...', Array)
+#13 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+#14 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#15 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#18 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#19 {main}
+CRITICAL - 2024-10-04 07:06:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_jurusan' in where clause is ambiguous
+[Method: GET, Route: Pembayaran/DaftarSiswa/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `id_jurusan` = :id_jurusan:', [...], false)
+ 2 APPPATH\Views\pembayaran\v_daftar_siswa.php(92): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 6 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+10 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 07:06:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_jurusan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `id_jurusan` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `id_jurusan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `id_jurusan` = :id_jurusan:', [...], false)
+ 4 APPPATH\Views\pembayaran\v_daftar_siswa.php(92): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 8 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 9 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+10 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+12 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+13 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+14 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 07:06:43 --> [Caused by] mysqli_sql_exception: Column 'id_jurusan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `id_jurusan` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `id_jurusan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `id_jurusan` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `id_jurusan` = :id_jurusan:', [...], false)
+ 5 APPPATH\Views\pembayaran\v_daftar_siswa.php(92): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 9 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+10 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+13 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 07:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:07:21 --> mysqli_sql_exception: Unknown column 'tbl_jurusan .id_jurusan' in 'where clause' in C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\smksiakad\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\smksiakad\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\smksiakad\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\smksiakad\app\Views\pembayaran\v_daftar_siswa.php(92): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\smksiakad\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\smksiakad\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\smksiakad\system\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_da...', Array, true)
+#8 C:\xampp\htdocs\smksiakad\app\Views\v_template_admin.php(303): view('pembayaran/v_da...')
+#9 C:\xampp\htdocs\smksiakad\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\smksiakad\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\smksiakad\system\Common.php(1171): CodeIgniter\View\View->render('v_template_admi...', Array, true)
+#12 C:\xampp\htdocs\smksiakad\app\Controllers\Pembayaran.php(48): view('v_template_admi...', Array)
+#13 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+#14 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#15 C:\xampp\htdocs\smksiakad\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\smksiakad\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\smksiakad\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#18 C:\xampp\htdocs\smksiakad\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#19 {main}
+CRITICAL - 2024-10-04 07:07:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jurusan .id_jurusan' in 'where clause'
+[Method: GET, Route: Pembayaran/DaftarSiswa/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `tbl_jurusan `. `id_jurusan` = :tbl_jurusan . id_jurusan:', [...], false)
+ 2 APPPATH\Views\pembayaran\v_daftar_siswa.php(92): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 6 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+10 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 07:07:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_jurusan .id_jurusan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `tbl_jurusan `. `id_jurusan` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `tbl_jurusan `. `id_jurusan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `tbl_jurusan `. `id_jurusan` = :tbl_jurusan . id_jurusan:', [...], false)
+ 4 APPPATH\Views\pembayaran\v_daftar_siswa.php(92): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 8 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 9 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+10 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+12 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+13 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+14 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 07:07:21 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_jurusan .id_jurusan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `tbl_jurusan `. `id_jurusan` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `tbl_jurusan `. `id_jurusan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `tbl_jurusan `. `id_jurusan` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_siswa`
+LEFT JOIN `tbl_jurusan` ON `tbl_jurusan`.`id_jurusan`=`tbl_siswa`.`id_jurusan`
+WHERE `tbl_jurusan `. `id_jurusan` = :tbl_jurusan . id_jurusan:', [...], false)
+ 5 APPPATH\Views\pembayaran\v_daftar_siswa.php(92): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 9 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+10 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+13 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 07:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 07:19:38 --> ErrorException: Undefined variable $data_siswa
+[Method: GET, Route: Pembayaran/DaftarSiswa/1]
+in APPPATH\Views\pembayaran\v_daftar_siswa.php on line 53.
+ 1 APPPATH\Views\pembayaran\v_daftar_siswa.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_siswa', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 07:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 07:29:35 --> ErrorException: Undefined array key "id_pemb_siswa"
+[Method: GET, Route: Pembayaran/DaftarSiswa/1]
+in APPPATH\Views\pembayaran\v_daftar_siswa.php on line 120.
+ 1 APPPATH\Views\pembayaran\v_daftar_siswa.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pemb_siswa"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php', 120)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 07:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 07:30:31 --> ErrorException: Undefined array key "id_pemb_siswa"
+[Method: GET, Route: Pembayaran/DaftarSiswa/1]
+in APPPATH\Views\pembayaran\v_daftar_siswa.php on line 120.
+ 1 APPPATH\Views\pembayaran\v_daftar_siswa.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pemb_siswa"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php', 120)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 07:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 07:32:21 --> ErrorException: Undefined array key "kelas"
+[Method: GET, Route: Pembayaran/DaftarSiswa/1]
+in APPPATH\Views\pembayaran\v_daftar_siswa.php on line 61.
+ 1 APPPATH\Views\pembayaran\v_daftar_siswa.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\pembayaran\\v_daftar_siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/v_daftar_siswa', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('pembayaran/v_daftar_siswa')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\smksiakad\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Pembayaran.php(48): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->DaftarSiswa('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 07:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
